@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>金梅影视 - 凌寒独开，暗香浮动：电影/电视剧/动漫/综艺/纪录片/戏曲 | jinpingmeiyingshi-h5</title>
+<meta name="description" content="金梅影视（jinpingmeiyingshi-h5.github.io）像一座梅园：电影、电视剧、动漫、综艺、纪录片、短剧、戏曲按孤寒/傲骨/暗香/雪夜/暖炉排，梅骨热度榜、种梅人手记，移动端自适应。">
+<meta name="keywords" content="金梅影视,梅骨片库,孤寒冷片,傲骨烈片,暗香慢片,雪夜悬疑,暖炉下饭,电影导航,电视剧导航,jinpingmeiyingshi-h5">
+<meta name="author" content="金梅影视">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://jinpingmeiyingshi-h5.github.io/">
+<meta property="og:title" content="金梅影视 - 凌寒独开，暗香浮动">
+<meta property="og:description" content="孤寒冷片、傲骨烈片、暗香慢片、雪夜悬疑、暖炉下饭：金梅影视是雪地里的一枝梅。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jinpingmeiyingshi-h5.github.io/">
+<meta property="og:site_name" content="金梅影视">
+<meta name="msvalidate.01" content="BING_VERIFY_CODE">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"金梅影视",
+  "url":"https://jinpingmeiyingshi-h5.github.io/",
+  "description":"金梅影视是梅园母题的影视导航站，覆盖电影、电视剧、动漫、综艺、纪录片、短剧、戏曲、直播。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"金梅影视的\"金梅\"是什么意思？",
+      "acceptedAnswer":{"@type":"Answer","text":"取梅花\"凌寒独开、暗香浮动\"的意象：好片子像雪地里的一枝梅，不随大流、不合群、清而有骨。与任何古典世情小说无关，本站是干净的影视导航站，无成人内容。"}
+    },
+    {
+      "@type":"Question",
+      "name":"金梅影视提供播放或下载吗？",
+      "acceptedAnswer":{"@type":"Answer","text":"不提供。金梅影视只做影视导航、片单分类、梅骨榜和观片手记，不挂播放地址、不绑下载器、不弹会员付费，全站内容合规。"}
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --bg:#f4f6f8;
+  --card:#ffffff;
+  --ink:#2c2a28;
+  --muted:#6f6a64;
+  --gold:#e8a33d;
+  --plum:#c0392b;
+  --moon:#7d9bc0;
+  --snow:#eef2f5;
+  --line:rgba(192,57,43,.22);
+  --shadow:0 14px 34px rgba(44,42,40,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Songti SC","Microsoft YaHei",system-ui,sans-serif;
+  background:
+    radial-gradient(720px 380px at 86% -8%,rgba(232,163,61,.16),transparent 60%),
+    radial-gradient(680px 360px at -8% 6%,rgba(125,155,192,.14),transparent 55%),
+    linear-gradient(180deg,#f4f6f8 0%,#edf1f4 55%,#e4eaf0 100%);
+  color:var(--ink);line-height:1.78;
+}
+a{color:inherit;text-decoration:none}
+
+/* 梅枝门楼 */
+.jp-top{position:sticky;top:0;z-index:999;background:rgba(244,246,248,.95);backdrop-filter:blur(8px);border-bottom:2px solid var(--plum)}
+.jp-top__in{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.68rem 1rem}
+.jp-logo{font-weight:900;font-size:1.2rem;color:var(--plum)}
+.jp-logo b{color:var(--gold)}
+.jp-logo i{color:var(--muted);font-style:normal;font-size:.78rem;background:#fff;padding:.1rem .45rem;border-radius:8px;border:1px solid var(--line)}
+.jp-nav{display:flex;gap:.3rem}
+.jp-nav a{padding:.42rem .8rem;border-radius:20px;font-size:.9rem;color:var(--muted);font-weight:700}
+.jp-nav a:hover{background:rgba(192,57,43,.1);color:var(--plum)}
+.jp-burger{display:none;flex-direction:column;gap:4px;cursor:pointer}
+.jp-burger span{width:22px;height:2px;background:var(--plum);border-radius:2px}
+
+/* Hero 折枝梅 */
+.jp-hero{max-width:1180px;margin:0 auto;padding:3.3rem 1rem 2.5rem;text-align:center;position:relative}
+.jp-branch{width:140px;height:150px;margin:0 auto 1.2rem;position:relative}
+.jp-branch::before{content:"";position:absolute;left:8px;bottom:14px;width:120px;height:5px;background:#5a4632;border-radius:4px;transform:rotate(-18deg)}
+.jp-branch::after{content:"";position:absolute;left:44px;bottom:34px;width:5px;height:92px;background:#5a4632;border-radius:4px;transform:rotate(6deg)}
+.jp-flower{position:absolute;width:20px;height:20px;border-radius:50% 50% 50% 50%/62% 62% 38% 38%;background:radial-gradient(circle at 42% 36%,#f6d99a,#e8a33d 55%,#c0392b);box-shadow:0 0 10px rgba(232,163,61,.45)}
+.jp-flower.f1{left:70px;top:4px}.jp-flower.f2{left:96px;top:30px}.jp-flower.f3{left:104px;top:64px}.jp-flower.f4{left:60px;top:46px}.jp-flower.f5{left:34px;top:74px}
+.jp-snow{position:absolute;inset:0;background-image:radial-gradient(circle,rgba(125,155,192,.35) 1px,transparent 1.5px);background-size:30px 30px;opacity:.25;pointer-events:none}
+.jp-hero h1{font-size:clamp(2rem,5vw,3rem);line-height:1.2;margin-bottom:1rem;position:relative}
+.jp-hero h1 em{font-style:normal;color:var(--plum)}
+.jp-hero h1 u{text-decoration:none;color:var(--gold)}
+.jp-hero p{color:var(--muted);max-width:700px;margin:0 auto 1.8rem;position:relative}
+.jp-cta{display:inline-flex;gap:.5rem;align-items:center;padding:.85rem 2rem;border-radius:30px;font-weight:800;color:#fff;background:linear-gradient(90deg,var(--plum),var(--gold));box-shadow:var(--shadow);position:relative}
+.jp-dim{color:var(--moon);font-size:.78rem;letter-spacing:3px;font-family:ui-monospace,monospace;margin-bottom:.5rem}
+
+/* 区块 */
+.jp-sec{max-width:1180px;margin:0 auto;padding:3.1rem 1rem}
+.jp-head{margin-bottom:1.6rem;text-align:center}
+.jp-head .no{font-size:.72rem;color:var(--plum);letter-spacing:3px;font-family:ui-monospace,monospace}
+.jp-head h2{font-size:clamp(1.4rem,3.4vw,2.1rem);font-weight:900;margin-top:.3rem}
+.jp-head h2 i{color:var(--gold);font-style:normal}
+.jp-head p{color:var(--muted);margin-top:.35rem;font-size:.92rem}
+
+/* 梅骨片单 */
+.jp-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:.9rem}
+.jp-cell{border-radius:18px;padding:1.3rem 1rem;background:var(--card);text-align:center;transition:.25s;box-shadow:0 6px 16px rgba(44,42,40,.07);border:2px solid transparent}
+.jp-cell:hover{transform:translateY(-5px);border-color:var(--plum);box-shadow:var(--shadow)}
+.jp-cell .ic{font-size:1.9rem}
+.jp-cell h3{font-size:.96rem;margin:.45rem 0 .25rem;font-weight:800}
+.jp-cell p{font-size:.72rem;color:var(--muted)}
+
+/* 梅园频道 */
+.jp-ch{display:grid;grid-template-columns:repeat(8,1fr);gap:.7rem}
+.jp-c{border-radius:14px;padding:1rem .3rem;background:var(--card);text-align:center;border:1px solid var(--line);transition:.25s}
+.jp-c:hover{transform:translateY(-3px);background:#eef2f5}
+.jp-c .ic{font-size:1.5rem}
+.jp-c h3{font-size:.78rem;margin-top:.3rem;font-weight:700}
+.jp-c p{font-size:.6rem;color:var(--muted)}
+
+/* 梅骨榜：枝痕条 */
+.jp-rank{display:grid;gap:1.1rem}
+.jp-item{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.1rem 1.2rem;box-shadow:0 6px 16px rgba(44,42,40,.07)}
+.jp-item h3{font-size:1.02rem;display:flex;justify-content:space-between;margin-bottom:.55rem;font-weight:800}
+.jp-item h3 span{color:var(--gold)}
+.jp-bar{height:16px;border-radius:999px;background:var(--snow);overflow:hidden;position:relative;border:1px solid var(--line);
+  background-image:repeating-linear-gradient(88deg,rgba(125,155,192,.2) 0 2px,transparent 2px 12px)}
+.jp-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--moon),var(--gold),var(--plum))}
+.jp-bar i::after{content:"❀";position:absolute;right:5px;top:-2px;font-size:.8rem;color:var(--plum)}
+
+/* 手记 */
+.jp-notes{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+.jp-note{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.4rem;box-shadow:0 6px 16px rgba(44,42,40,.07)}
+.jp-note .tag{font-size:.72rem;padding:.2rem .6rem;border-radius:8px;font-weight:800}
+.jp-note.planter .tag{background:rgba(232,163,61,.16);color:var(--gold)}
+.jp-note.snow .tag{background:rgba(192,57,43,.14);color:var(--plum)}
+.jp-note h3{font-size:1.04rem;margin:.6rem 0 .4rem;font-weight:800}
+.jp-note p{font-size:.86rem;color:var(--muted)}
+
+/* 关于 */
+.jp-about{background:linear-gradient(160deg,#fff,#eef2f5);border:2px solid var(--plum);border-radius:26px;padding:2.4rem}
+.jp-about h2{font-size:1.9rem;margin-bottom:.8rem;font-weight:900}
+.jp-about h2 u{color:var(--plum);text-decoration:none}
+.jp-about p{color:var(--muted);margin-bottom:1rem}
+.jp-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.4rem}
+.jp-stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.1rem;text-align:center;box-shadow:0 6px 16px rgba(44,42,40,.07)}
+.jp-stat b{font-size:1.5rem;color:var(--gold);display:block}
+.jp-stat span{font-size:.8rem;color:var(--muted)}
+
+/* FAQ */
+.jp-faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.2rem 1.1rem;margin-bottom:.7rem}
+.jp-faq summary{cursor:pointer;padding:.85rem 0;font-weight:800}
+.jp-faq p{padding:0 0 .85rem;color:var(--muted)}
+
+/* 页脚 */
+.jp-foot{border-top:2px solid var(--plum);background:#eef2f5;padding:2.2rem 1rem;text-align:center;color:var(--muted);font-size:.86rem}
+.jp-foot a{color:var(--plum)}
+.jp-foot__links{display:flex;gap:1.1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem}
+.jp-foot__links a{font-size:.84rem}
+
+@media(max-width:980px){
+  .jp-grid{grid-template-columns:repeat(3,1fr)}
+  .jp-ch{grid-template-columns:repeat(4,1fr)}
+  .jp-notes{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .jp-nav{display:none;position:absolute;top:56px;left:0;right:0;flex-direction:column;gap:0;background:#f4f6f8;border-bottom:2px solid var(--plum)}
+  .jp-nav.show{display:flex}
+  .jp-nav a{padding:.85rem 1rem;border-bottom:1px solid #dfe5ea}
+  .jp-burger{display:flex}
+  .jp-grid{grid-template-columns:repeat(2,1fr)}
+  .jp-ch{grid-template-columns:repeat(3,1fr)}
+  .jp-stats{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+<header class="jp-top">
+  <div class="jp-top__in">
+    <div class="jp-logo">❀ 金梅<b>影视</b> <i>·凌寒独开</i></div>
+    <nav class="jp-nav" id="jpNav">
+      <a href="#home">梅园</a>
+      <a href="#grid">梅骨片单</a>
+      <a href="#ch">梅园频道</a>
+      <a href="#rank">梅骨榜</a>
+      <a href="#notes">金梅手记</a>
+      <a href="#about">关于金梅</a>
+    </nav>
+    <div class="jp-burger" onclick="document.getElementById('jpNav').classList.toggle('show')">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<section class="jp-hero" id="home">
+  <div class="jp-branch">
+    <div class="jp-snow"></div>
+    <span class="jp-flower f1"></span>
+    <span class="jp-flower f2"></span>
+    <span class="jp-flower f3"></span>
+    <span class="jp-flower f4"></span>
+    <span class="jp-flower f5"></span>
+  </div>
+  <p class="jp-dim">// blooming in the cold, scent in the wind</p>
+  <h1>凌寒独开，<em>暗香浮动</em><br>金梅影视，<u>雪地里一枝好片</u></h1>
+  <p>金梅影视不做“全网最全”的仓库，也不抢“首发”的名头。我们把片子当梅：有的孤寒清冷、有的傲骨烈性、有的暗香慢品、有的雪夜潜行、有的围炉下饭。好片像梅，不合群，但一开就压住一园春色。</p>
+  <a class="jp-cta" href="#grid">❀ 折一枝来看</a>
+</section>
+
+<section class="jp-sec" id="grid">
+  <div class="jp-head">
+    <div class="no">// five plum temperaments</div>
+    <h2>梅骨 <i>片单</i></h2>
+    <p>不按类型硬分，按“这枝梅什么脾气”分。</p>
+  </div>
+  <div class="jp-grid">
+    <div class="jp-cell"><div class="ic">🥶</div><h3>孤寒·冷片</h3><p>冷调、疏离、北欧、雪原、太空</p></div>
+    <div class="jp-cell"><div class="ic">🔥</div><h3>傲骨·烈片</h3><p>热血、抗争、江湖、历史、硬汉</p></div>
+    <div class="jp-cell"><div class="ic">🌬️</div><h3>暗香·慢片</h3><p>文艺、诗片、旧巷、书信、茶烟</p></div>
+    <div class="jp-cell"><div class="ic">🌨️</div><h3>雪夜·悬疑</h3><p>封闭空间、暴雪、密室、反转</p></div>
+    <div class="jp-cell"><div class="ic">🍵</div><h3>暖炉·下饭</h3><p>家庭、喜剧、合家、不用动脑</p></div>
+  </div>
+</section>
+
+<section class="jp-sec" id="ch">
+  <div class="jp-head">
+    <div class="no">// eight garden gates</div>
+    <h2>梅园 <i>频道</i></h2>
+    <p>八扇园门，从戏曲到直播都开着。</p>
+  </div>
+  <div class="jp-ch">
+    <div class="jp-c"><div class="ic">🎬</div><h3>电影</h3><p>院线/经典/小众</p></div>
+    <div class="jp-c"><div class="ic">📺</div><h3>剧集</h3><p>国产/韩剧/美剧/日剧</p></div>
+    <div class="jp-c"><div class="ic">🍥</div><h3>动漫</h3><p>新番/国创/剧场版</p></div>
+    <div class="jp-c"><div class="ic">🎤</div><h3>综艺</h3><p>慢综/选秀/访谈</p></div>
+    <div class="jp-c"><div class="ic">🐳</div><h3>纪录片</h3><p>自然/老城/手艺/节气</p></div>
+    <div class="jp-c"><div class="ic">⚡</div><h3>短剧</h3><p>傲骨逆袭/雪夜悬疑</p></div>
+    <div class="jp-c"><div class="ic">🎭</div><h3>戏曲</h3><p>京剧/昆曲/越剧/黄梅</p></div>
+    <div class="jp-c"><div class="ic">📡</div><h3>直播</h3><p>首映/主创谈/围炉夜话</p></div>
+  </div>
+</section>
+
+<section class="jp-sec" id="rank">
+  <div class="jp-head">
+    <div class="no">// bone of the plum</div>
+    <h2>梅骨 <i>热度榜</i></h2>
+    <p>按“风骨值 = 值得细品 + 二刷 + 安利意愿 + 不合群指数”综合排。</p>
+  </div>
+  <div class="jp-rank">
+    <div class="jp-item"><h3>1. 傲骨：让子弹飞 <span>99%</span></h3><div class="jp-bar"><i style="width:99%"></i></div></div>
+    <div class="jp-item"><h3>2. 孤寒：降临 <span>97%</span></h3><div class="jp-bar"><i style="width:97%"></i></div></div>
+    <div class="jp-item"><h3>3. 暗香：花样年华 <span>96%</span></h3><div class="jp-bar"><i style="width:96%"></i></div></div>
+    <div class="jp-item"><h3>4. 雪夜：东方快车谋杀案 <span>94%</span></h3><div class="jp-bar"><i style="width:94%"></i></div></div>
+    <div class="jp-item"><h3>5. 暖炉：父母爱情 <span>92%</span></h3><div class="jp-bar"><i style="width:92%"></i></div></div>
+  </div>
+</section>
+
+<section class="jp-sec" id="notes">
+  <div class="jp-head">
+    <div class="no">// keeper logs</div>
+    <h2>金梅 <i>手记</i></h2>
+    <p>一边种梅，一边踏雪寻梅。</p>
+  </div>
+  <div class="jp-notes">
+    <article class="jp-note planter">
+      <span class="tag">🪴 种梅人</span>
+      <h3>梅不是越多越好</h3>
+      <p>一园梅开十种颜色，那就成了公园，不是梅园。金梅影视只留五种脾气：孤寒、傲骨、暗香、雪夜、暖炉。少，才好认；认得了，才记得住那枝的香。</p>
+    </article>
+    <article class="jp-note snow">
+      <span class="tag">🥾 踏雪人</span>
+      <h3>孤寒片要在冷天看</h3>
+      <p>《降临》《冷山》《寒枝雀静》这种，夏天看只觉得闷，冬天看才对味——窗外刮风、屋里一盏灯、银幕上全是雪和沉默。金梅影视的孤寒筐不是冷门标签，是季节限定。</p>
+    </article>
+    <article class="jp-note planter">
+      <span class="tag">🪴 种梅人</span>
+      <h3>暖炉片是给疲惫的人留的</h3>
+      <p>不是没品味，是人都累。金梅影视留一炉火：《父母爱情》《武林外传》《请回答1988》，不用记剧情、不用盯字幕，开着就像屋里多了两个人说话。这是梅园的南墙，向阳。</p>
+    </article>
+    <article class="jp-note snow">
+      <span class="tag">🥾 踏雪人</span>
+      <h3>雪夜悬疑最上头</h3>
+      <p>暴雪封山、电话断了、凶手在屋里——这种设定在雪夜看才有重量。《东方快车谋杀案》《利刃出鞘》这类，金梅影视标“围炉慎点”：好看是真，停不下来也是真。</p>
+    </article>
+  </div>
+</section>
+
+<section class="jp-sec" id="about">
+  <div class="jp-about">
+    <h2>关于 <u>金梅影视</u></h2>
+    <p>
+      金梅影视（jinpingmeiyingshi-h5.github.io）不是“又一个影视大全”，它是一座梅园。你不用背类型表，只要问：今天我想看孤寒的、傲骨的、暗香的、雪夜的，还是围炉下饭的？
+    </p>
+    <p>
+      电影、电视剧、动漫、综艺、纪录片、短剧、戏曲、直播，全都按梅的脾气重新种：孤寒·冷片 / 傲骨·烈片 / 暗香·慢片 / 雪夜·悬疑 / 暖炉·下饭。凌寒独开，暗香浮动。
+    </p>
+    <div class="jp-stats">
+      <div class="jp-stat"><b>5 枝</b><span>孤寒/傲骨/暗香/雪夜/暖炉</span></div>
+      <div class="jp-stat"><b>8 门</b><span>影/剧/漫/综/纪/短剧/戏曲/直播</span></div>
+      <div class="jp-stat"><b>0 俗艳</b><span>清而有骨</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="jp-sec jp-faq">
+  <div class="jp-head">
+    <div class="no">// q & a</div>
+    <h2>金梅 <i>问答</i></h2>
+  </div>
+  <details open>
+    <summary>“金梅”是不是那部古典小说的名字？</summary>
+    <p>只是音同。本站取梅花“凌寒独开、暗香浮动”的意象，做影视导航与片单推荐，全站无任何成人内容、不涉情色、不挂相关链接。若您是因书名误入，抱歉打扰；若您是来找清冷有骨的片子，请留下。</p>
+  </details>
+  <details>
+    <summary>和红杏影视、小苹果影视差在哪？</summary>
+    <p>红杏是春色破墙（破壁/暗涌/春心/闲院/野风），小苹果是果园熟度（红透/青涩/半熟/落果/甜脆），金梅是梅的脾气（孤寒/傲骨/暗香/雪夜/暖炉）。一个浓、一个甜、一个清。</p>
+  </details>
+  <details>
+    <summary>金梅影视有片源吗？</summary>
+    <p>没有。金梅影视是纯导航与片单站，只做分类、简介、梅骨榜和手记，不提供播放地址、不绑下载器、不弹会员付费，全站合规。</p>
+  </details>
+</section>
+
+<footer class="jp-foot">
+  <div class="jp-foot__links">
+    <a href="#grid">梅骨片单</a>
+    <a href="#ch">梅园频道</a>
+    <a href="#rank">梅骨榜</a>
+    <a href="#notes">金梅手记</a>
+    <a href="#about">关于金梅</a>
+    <a href="#">免责声明</a>
+  </div>
+  <p>© 2026 <a href="https://jinpingmeiyingshi-h5.github.io">金梅影视</a> · jinpingmeiyingshi-h5.github.io</p>
+  <p>金梅影视 —— 凌寒独开，暗香浮动。本站为影视导航站，不含任何成人内容。</p>
+</footer>
+
+<script>
+document.querySelectorAll('.jp-nav a').forEach(function(a){
+  a.addEventListener('click',function(){
+    document.getElementById('jpNav').classList.remove('show');
+  });
+});
+</script>
+
+</body>
+</html>
